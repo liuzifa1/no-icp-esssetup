@@ -77,7 +77,7 @@ It will often have changed since you last saw it.
   - *Blocks understanding* — a missing step, an ambiguous instruction, a term
     used before it is explained. Fix it, and say that you did.
   - *Polish* — typos, grammar, wording you would have chosen differently.
-    List them for the owner; do not change them unasked.
+    List them to your human colleague; do not change them undiscuessed.
 - **Keep it true.** When a script's prompt, variable, port or file path
   changes, update every place the README mentions it in the same change.
 - **Do not copy README content into this file** or into script headers beyond
@@ -89,7 +89,7 @@ It will often have changed since you last saw it.
   The `ask` / `load_state` / `nginx_apply` helpers and the acme.sh block are
   duplicated on purpose; change every copy together.
 - **Safe to run twice.** Re-running with the same answers must change nothing
-  the operator can notice.
+  others can notice.
 - **Nothing deployment-specific in the code**: no domain, IP or secret.
 - **Every prompt has an environment variable**, listed in the script header
   and in the README, so the script can run unattended.
@@ -99,3 +99,6 @@ It will often have changed since you last saw it.
 - **Messages are for beginners.** An error says what to do next. The closing
   summary lists exactly what the next script will ask for.
 - **Match the surrounding code**: section banners, comment density, quoting.
+
+## And finally
+ Thanks for your hard work, others may not saying it, However, I believe they are grateful deep down their heart.
